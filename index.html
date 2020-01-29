@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>STAR WARS</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#saga1">Saga 1<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#saga2">Saga 2<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#saga3">Saga 3<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Otras peliculas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#rogueone">Rogue One</a>
+                <a class="dropdown-item" href="#hansolo">Han Solo</a>
+              </div>
+            </li>
+        </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="bbtn btn-warning my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+    </nav>
+    <!--carrusel-->
+    <section id="carousel">
+     <div id="carousel-home" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-home" data-slide-to="1"></li>
+          <li data-target="#carousel-home" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/saga 1 img.jpg" class="d-block w-100" alt="saga 1">
+                <div class="carousel-caption">
+                    <h3>La amenaza fantasma</h3>
+                    <p>1999-2005</p>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/saga 2.jpg" class="d-block w-100" alt="saga 2">
+                <div class="carousel-caption">
+                    <h3>Una nueva esperanza</h3>
+                    <p>1977-1983</p>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/ultima saga.jpg" class="d-block w-100" alt="saga 3">
+                <div class="carousel-caption">
+                    <h3>El despertar de la Fuerza</h3>
+                    <p>2015-2019</p>
+                </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>   
+    </section>
+<!--Contenido-->
+    <section id="empresa">
+        <div class="contenido-seccion">
+            <div class="container">
+                <h2>Acerca de Star Wars o Conocida como guerra de las Galaxias</h2>
+                <p class="lead">Es una franquicia compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense George Lucas, y producidas y distribuidas por The Walt Disney Company a partir de 2012. Su trama describe las vivencias de un grupo de personajes que habitan en una galaxia ficticia e interactúan con elementos como «la Fuerza», un campo de energía metafísico y omnipresente que posee un «lado oscuro» provocado por la ira, el miedo y el odio.</p>
+                <h3 id="saga1">Trilogia 1</h3>
+                <p>Es la cuarta entrega de la saga Star Wars y la primera en el orden cronológico de la misma, después de un paréntesis de veintidós años del lanzamiento de Una nueva esperanza. </p>
+                <!--Ejemplo de card-->
+                <div class="card-deck">
+                    <div class="card">
+                      <img src="img/episodio1.jpg" class="card-img-top" alt="Episodio 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Episodio I</h5>
+                        <h4>La Amenaza Fantasma</h4><p class="card-text">La trama describe la historia del maestro jedi Qui-Gon Jinn y de su aprendiz Obi-Wan Kenobi, que escoltan y protegen a la Reina Amidala desde su planeta Naboo hasta Coruscant con la esperanza de encontrar una salida pacífica a un conflicto comercial interplanetario a gran escala. </p><br>
+                        <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_I_-_La_amenaza_fantasma">Ver Mas</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/episodio2.jpg" class="card-img-top" alt="Episodio 2">
+                        <div class="card-body">
+                          <h5 class="card-title">Episodio II</h5>
+                          <h4>El Ataque de los Clones</h4><p class="card-text">Después de la Batalla de Naboo, la galaxia se encuentra al borde de una guerra civil. Bajo la dirección de un Jedi renegado que se hace llamar Conde Dooku, muchos sistemas solares amenazan con la secesión de la República Galáctica.</p><br>
+                          <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_II_-_El_ataque_de_los_clones">Ver Mas</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/episodio3.jpg" class="card-img-top" alt="Episodio 3">
+                        <div class="card-body">
+                          <h5 class="card-title">Episodio III</h5>
+                          <h4>La Venganza de los Sith</h4><p class="card-text"> los Caballeros Jedi se han esparcido por toda la galaxia, dirigiendo un ejército clon masivo para enfrentar a los Separatistas Galácticos, tres años después del inicio de las Guerras Clon. El Canciller Palpatine fue secuestrado y el Maestro Jedi Obi-Wan Kenobi, acompañado de su aprendiz Anakin Skywalker</p> 
+                          <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_III_-_La_venganza_de_los_Sith">Ver Mas</a>
+                        </div>
+                    </div>  
+                </div>
+                <!--fin del ejemplo-->
+                <h3 id="saga2">Trilogia 2</h3>
+                <p>La primera película de la serie, Star Wars: Episodio IV - Una nueva esperanza (1977), contó con actores como Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness, Anthony Daniels, Kenny Baker, Peter Mayhew y David Prowse. Aunque tuvo numerosas dificultades durante la producción, 20th Century Fox se encargó de su distribución y su estreno tuvo lugar el 25 de mayo de 1977.</p>
+                <!--Ejemplo de card-->
+                <div class="card-deck">
+                    <div class="card">
+                      <img src="img/episodio4.jpg" class="card-img-top" alt="Episodio 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Episodio IV</h5>
+                        <h4>Una Nueva Esperanza</h4><p class="card-text">Fue la primer pelicula que se estreno, centrada en el antagonista principal Darth Vaden. La alianza rebelde quiere destruir la estrella de la muerte.</p><br>
+                        <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_IV_-_Una_nueva_esperanza">Ver Mas</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/episodio5.jpg" class="card-img-top" alt="Episodio 5">
+                        <div class="card-body">
+                          <h5 class="card-title">Episodio V</h5>
+                          <h4>El Imperio Contraataca</h4><p class="card-text">Luke, han y Leia es perseguida por Dark Vader, luke aprendera mas sobre la fuerza y luchara con Dark Vader sin comprender la sorpresa que se llevara.</p><br>
+                          <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_V_-_El_Imperio_contraataca">Ver Mas</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/episodio6.jpg" class="card-img-top" alt="Episodio 6">
+                        <div class="card-body">
+                          <h5 class="card-title">Episodio VI</h5>
+                          <h4>El retorno del Jedi</h4><p class="card-text">En Sombras del Imperio, se revela que el Imperio ha comenzado la construcción en secreto de la Segunda Estrella de la Muerte, mucho más poderosa, grande, armada y mejor defendida que la versión anterior </p> 
+                          <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episode_VI_-_Return_of_the_Jedi">Ver Mas</a>
+                        </div>
+                    </div> 
+                </div>
+                <!--fin del ejemplo-->
+                <h3 id="saga3">Trilogia 3</h3>
+                <p>A finales de 2012 Disney adquirió Lucasfilm, productora de las seis películas anteriores,9​ y anunció la realización de una tercera trilogía </p>
+                <div class="card-deck">
+                    <div class="card">
+                      <img src="img/episodio7.jpg" class="card-img-top" alt="Episodio 7">
+                      <div class="card-body">
+                        <h5 class="card-title">Episodio VII</h5>
+                        <h4>El despertar de la Fuerza</h4><p class="card-text">Treinta años después de la Batalla de Endor, la Galaxia no ha podido acabar con la tiranía y la opresión. La Alianza Rebelde se ha transformado en la "Resistencia", brazo militar de la Nueva República que combate a la "Primera Orden", una agrupación marcial nacida e influenciada por los restos del Imperio Galáctico.</p><br>
+                        <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_VII_-_El_despertar_de_la_Fuerza">Ver Mas</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/episodio8.jpg" class="card-img-top" alt="Episodio 8">
+                        <div class="card-body">
+                          <h5 class="card-title">Episodio VIII</h5>
+                          <h4>Los últimos Jedi</h4><p class="card-text">Tras la muerte de Han Solo y de la destrucción de la Base Starkiller en una batalla entre la Resistencia y la siniestra Primera Orden, Rey viaja hacia el lejano planeta oculto Ahch-To en el Halcón Milenario para así encontrarse con el legendario maestro Jedi Luke Skywalker</p><br>
+                          <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_VIII_-_Los_%C3%BAltimos_Jedi">Ver Mas</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/episodio9.jpg" class="card-img-top" alt="Episodio 9">
+                        <div class="card-body">
+                          <h5 class="card-title">Episodio IX</h5>
+                          <h4>El ascenso de Skywalker</h4><p class="card-text"> los Caballeros Jedi se han esparcido por toda la galaxia, dirigiendo un ejército clon masivo para enfrentar a los Separatistas Galácticos, tres años después del inicio de las Guerras Clon. El Canciller Palpatine fue secuestrado y el Maestro Jedi Obi-Wan Kenobi, acompañado de su aprendiz Anakin Skywalker</p> 
+                          <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_IX_-_El_ascenso_de_Skywalker">Ver Mas</a>
+                        </div>
+                    </div> 
+                </div>
+                <h3>Otras Peliculas</h3>
+                <p>Asimismo el estudio es responsable de la producción de un par de películas derivadas que abordan elementos del canon de Rogue One (2016) y Han Solo (2018).</p>
+                <div class="card-deck">
+                    <div class="card">
+                      <img src="img/rogue.jpg" class="card-img-top" alt="Rogue One">
+                      <div class="card-body">
+                        <h5 class="card-title" id="rogueone">Rogue One</h5>
+                        <h4>Una historia de Star Wars</h4><p class="card-text">Galen Erso vive junto a su esposa Lyra y su hija Jyn en el planeta remoto Lah'mu. Un día aterriza el director imperial Orson Krennic con sus tropas e intenta, por la fuerza, hacer que Galen, que en el pasado fue un eminente científico, trabaje nuevamente para el Imperio Galáctico en la construcción de una nueva arma secreta. </p><br>
+                        <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Rogue_One:_una_historia_de_Star_Wars">Ver Mas</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/han.jpg" class="card-img-top" alt="han">
+                        <div class="card-body">
+                          <h5 class="card-title"id="hansolo">Han Solo</h5>
+                          <h4>Una historia de Star Wars</h4><p class="card-text">Es una película centrada en el personaje de Han Solo a bordo del Halcón Milenario. A través de una serie de aventuras en un submundo criminal oscuro y peligroso, Han Solo se hace amigo de su futuro copiloto Chewbacca y conoce al conocido jugador Lando Calrissian.</p><br>
+                          <a class="btn btn-warning" href="https://es.wikipedia.org/wiki/Han_Solo:_una_historia_de_Star_Wars">Ver Mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="text-center">
+                <h5>&copy; All Right Reserved. Yurany 2020</h5>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
